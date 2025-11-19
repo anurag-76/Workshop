@@ -1,0 +1,26 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 20px;
+} */
+
+/* footer>a {
+    text-decoration: none;
+} */
