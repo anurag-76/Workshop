@@ -1,26 +1,267 @@
-/* *{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-html , body{
-    height: 100%;
-    width: 100%;
+    background-color: #1A1A2A;
+    color: white;
 }
 
-nav{
+
+body {
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+
+}
+
+nav {
+    height: 7vh;
+    width: 100%;
+    background-color: #181824;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
 }
 
-nav ul{
+nav h3 {
+    color: #725EE3;
+    margin-left: 200px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    padding-right: 250px;
     display: flex;
     justify-content: space-between;
+    gap: 60px;
+    background-color: #181824;
     list-style-type: none;
-    gap: 20px;
-} */
+}
 
-/* footer>a {
+nav a {
     text-decoration: none;
-} */
+    color: white;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.home {
+    height: 50vh;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.l-left {
+    margin: 265px;
+    margin-left: 200px;
+    width: 30%;
+}
+
+.l-left .intro {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.l-left .fullname {
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.l-left .bio {
+    font-size: 23px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.l-left button {
+
+    margin-right: 30px;
+    border-radius: 10px;
+    border-color: #7562E0;
+}
+
+.l-left .btn1 {
+    padding: 14px 40px;
+    background-color: #7562E0;
+    font-size: 23px;
+}
+
+.l-left .btn2 {
+    padding: 14px 40px;
+    font-size: 23px;
+    background-color: transparent;
+}
+
+.btn1 i {
+    background-color: transparent;
+    padding-left: 8px;
+
+}
+
+.btn2 i {
+    background-color: transparent;
+    padding-left: 8px;
+
+}
+
+.r-right {
+    height: 50vh;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.r-right img {
+    margin-top: 200px;
+    height: 750px;
+    width: 800px;
+    margin-right: 90px;
+}
+
+.fat-border {
+    margin-top: 70px;
+    width: 100%;
+    height: 15vh;
+    background-color: #181824;
+}
+
+.about {
+    width: 100%;
+    height: 20vh;
+}
+
+.about h3 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #725EE3;
+}
+
+.about p {
+    margin-left: 200px;
+    margin-right: 130px;
+    overflow-x: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+.education {
+
+    height: 40vh;
+    width: 100%;
+}
+
+.education h3 {
+    padding-top: 40px;
+    margin-left: 200px;
+    font-size: 35px;
+    color: #725EE3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education table {
+    width: 85%;
+    border-collapse: separate;
+    margin-top: 50px;
+    margin-left: 190px;
+    table-layout: fixed;
+    border: 3px solid #725EE3;
+    border-radius: 10px;
+}
+
+.education table th,
+.education table td {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.education table td:not(:first-child),
+.education table th:not(:first-child) {
+    border-left: 2px solid grey;
+}
+
+
+.education table th {
+    font-size: 30px;
+    height: 70px;
+    text-align: left;
+    border-bottom: 3px solid white;
+}
+
+
+.education table td {
+    font-size: 25px;
+    height: 50px;
+}
+
+.education table tr:not(:last-child) td {
+    border-bottom: 3px solid white;
+}
+
+.interest-heading {
+    color: #725EE3;
+    font-size: 35px;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#interest{
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 9fr));
+    gap: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+.interest-card{
+    border: 2px solid #725EE3;
+    padding: 60px 60px;
+    border-radius: 16px;
+    text-align: center ;
+    transition: 0.3s ease;
+    float: left;
+}
+
+.interest-card:hover{
+    transform: translateY(-5px);
+    border-color:#725EE3;
+    box-shadow: 0 0 15px #725EE3 ;
+}
+
+.interest-card i{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.interest-card h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.interest-card p{
+    font-size: 14px;
+    line-height: 1.5;
+}

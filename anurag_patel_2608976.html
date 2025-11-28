@@ -5,79 +5,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
     <header id="home">
         <nav>
-            <h3>ANURAG</h3>
+            <h3>ANURAG PATEL</h3>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#bio">Short Bio</a></li>
+                <li><a href="#port-bio">Short Bio</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#interest">Interest</a></li>
+                <li><a href="#int">Interest</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="bio">
-        <h3>Short Bio</h3>
-        <h4>Name: Anurag Patel</h4>
-        <h5>Field Of Interest: Web Development and Artificial Intelligence</h5>
-        <figure>
-            <img src="" alt="Image not Loaded">
-            <figcaption>Anurag Patel</figcaption>
-        </figure>
-        <p>Hello! I am Anurag Patel, an aspiring developer passionate about building clean and functional web
-            applications, I love exploring new technologies and continuously improving my skills.</p>
+    <section class="home">
+        <div class="l-left">
+            <p class="intro">Hello, i'm</p>
+            <h1 class="fullname">Anurag Patel</h1>
+            <p class="bio">
+                An aspiring developer passionate about building clean and functional web
+                applications. I love exploring new technologies and continuously improving my skills.
+            </p>
+        
+            <button class="btn1">About Me<i class="ri-user-fill"></i></button>
+            <button class="btn2">Projects<i class="ri-folder-fill"></i></button>
+        </div>
+
+
+        <div class="r-right">
+            <img src="img/enhanced-Photoroom.png" alt="profile">
+        </div>
+    </section>
+    <div class="fat-border"></div>
+
+    <section class="about">
+        <h3>About me:</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam, non dolorem vitae cumque deserunt
+            voluptate corrupti ipsa perspiciatis facere possimus esse maxime fugit laudantium inventore blanditiis eaque
+            quisquam molestias?
+            Molestias tempora veritatis a? Iure ratione, dignissimos impedit officiis, dicta, reiciendis harum
+            recusandae explicabo id accusamus voluptatibus! Numquam vel maiores deserunt aliquam ab dolorem reiciendis
+            odit quaerat cum. Laudantium, animi?</p>
     </section>
 
-    <section id="education">
-        <h3>Education History</h3>
-        <table border="1">
+    <section class="education">
+        <h3>Qualification:</h3>
+        <table>
             <tr>
                 <th>Level</th>
                 <th>Institution</th>
                 <th>Year</th>
+                <th>Marks</th>
             </tr>
             <tr>
                 <td>High School</td>
                 <td>Gautam Secondary School</td>
                 <td>2023</td>
+                <td>A+</td>
             </tr>
             <tr>
                 <td>Intermediate</td>
-                <td>KMC lalitpur</td>
+                <td>Kathmandu Model College</td>
                 <td>2025</td>
+                <td>A+</td>
             </tr>
             <tr>
                 <td>Bachelor's Degree</td>
                 <td>Herald College Kathmandu</td>
                 <td>2028</td>
+                <td>A+</td>
             </tr>
         </table>
     </section>
 
-    <aside id="interest">
-        <h3>Interests & Hobbies</h3>
-        <h4>My Interests</h4>
-        <ul>
-            <li>Web Development</li>
-            <li>Cyber Security</li>
-            <li>Cloud Computing</li>
-        </ul>
-        <h4>My Hobbies</h4>
-        <ul>
-            <li>Reading Tech Blogs</li>
-            <li>Travelling</li>
-            <li>Cloud Computing</li>
-        </ul>
-    </aside>
+    <h3 class="interest-heading">Interests & Hobbies:</h3>
 
-    <section id="contact">
+    <section id="interest">
+        <div class="interest-card">
+            <i class="ri-pencil-ruler-2-line"></i>
+            <h3>Interest 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente distinctio libero illo
+                impedit ratione eius qui voluptates quasi fugiat cumque cum, Id.</p>
+        </div>
+
+        <div class="interest-card">
+            <i class="ri-home-line"></i>
+            <h3>Interest 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente distinctio libero illo
+                impedit ratione eius qui voluptates quasi fugiat cumque cum, Id.</p>
+        </div>
+
+        <div class="interest-card">
+            <i class="ri-robot-2-line"></i>
+            <h3>Interest 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente distinctio libero illo
+                impedit ratione eius qui voluptates quasi fugiat cumque cum, Id.</p>
+        </div>
+
+        <div class="interest-card">
+            <i class="ri-git-branch-line"></i>
+            <h3>Interest 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente distinctio libero illo
+                impedit ratione eius qui voluptates quasi fugiat cumque cum, Id.</p>
+        </div>
+
+        <div class="interest-card">
+            <i class="ri-javascript-line"></i>
+            <h3>Interest 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente distinctio libero illo
+                impedit ratione eius qui voluptates quasi fugiat cumque cum, Id.</p>
+        </div>
+
+        <div class="interest-card">
+            <i class="ri-macbook-line"></i>
+            <h3>Interest 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente distinctio libero illo
+                impedit ratione eius qui voluptates quasi fugiat cumque cum, Id.</p>
+        </div>
+    </section>
+
+    <!-- <section id="contact">
         <h3>Contact Me</h3>
         <form action="">
             <label for="">Name:</label><br>
@@ -99,7 +152,9 @@
         <a href="https://x.com" target="_blank"><i class="ri-twitter-x-line"></i> Twitter | </a>
         <a href="https://linkedin.com" target="_blank"><i class="ri-linkedin-fill"></i>LinkedIn | </a>
         <a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-line"></i>Instagram</a>
-    </footer>
+    </footer> -->
+
+
 
 </body>
 
