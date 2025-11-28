@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,15 +16,15 @@
             <h3>ANURAG PATEL</h3>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#port-bio">Short Bio</a></li>
+                <li><a href="#about">Short Bio</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#int">Interest</a></li>
+                <li><a href="#interest-heading">Interest</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="home">
+    <section id="home">
         <div class="l-left">
             <p class="intro">Hello, i'm</p>
             <h1 class="fullname">Anurag Patel</h1>
@@ -32,7 +32,7 @@
                 An aspiring developer passionate about building clean and functional web
                 applications. I love exploring new technologies and continuously improving my skills.
             </p>
-        
+
             <button class="btn1">About Me<i class="ri-user-fill"></i></button>
             <button class="btn2">Projects<i class="ri-folder-fill"></i></button>
         </div>
@@ -42,9 +42,8 @@
             <img src="img/enhanced-Photoroom.png" alt="profile">
         </div>
     </section>
-    <div class="fat-border"></div>
 
-    <section class="about">
+    <section id="about">
         <h3>About me:</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam, non dolorem vitae cumque deserunt
             voluptate corrupti ipsa perspiciatis facere possimus esse maxime fugit laudantium inventore blanditiis eaque
@@ -54,7 +53,7 @@
             odit quaerat cum. Laudantium, animi?</p>
     </section>
 
-    <section class="education">
+    <section id="education">
         <h3>Qualification:</h3>
         <table>
             <tr>
@@ -84,8 +83,7 @@
         </table>
     </section>
 
-    <h3 class="interest-heading">Interests & Hobbies:</h3>
-
+    <h3 id="interest-heading">Interests & Hobbies:</h3>
     <section id="interest">
         <div class="interest-card">
             <i class="ri-pencil-ruler-2-line"></i>
@@ -130,30 +128,40 @@
         </div>
     </section>
 
-    <!-- <section id="contact">
-        <h3>Contact Me</h3>
-        <form action="">
-            <label for="">Name:</label><br>
-            <input type="text"><br><br>
+    <section id="contact">
+        <div class="contact-left">
+        <h3 class="contact-heading">Connect with me:</h3>
+        <p class="satisfied">Satisfied with me? Please contact me</p>
+        <h5 class="icons"><i class="ri-facebook-box-fill"></i></h5>
+        <h5 class="icons"><i class="ri-instagram-fill"></i></h5>
+        <h5 class="icons"><i class="ri-github-fill"></i></h5>
+        <h5 class="icons"><i class="ri-linkedin-box-fill"></i></h5>
+        </div>
 
-            <label for="">Email</label><br>
-            <input type="text"><br><br>
+        <div class="contact-right">
+            <form action="">
+                <label for="">Name:</label><br>
+                <input type="text"><br><br>
 
-            <label for="">Message</label><br>
-            <textarea rows="4" cols="45"></textarea> <br><br>
+                <label for="">Email</label><br>
+                <input type="text"><br><br>
 
-            <input type="submit" value="Submit">
-        </form>
+                <label for="">Message</label><br>
+                <textarea rows="4" cols="45"></textarea> <br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </section>
 
-    <footer>
+    <!-- <footer>
         <p>Copyright © 2023 Anurag Patel. All rights reserved.</p>
         <a href="https://www.facebook.com" target="_blank"><i class="ri-facebook-box-fill"></i>Facebook | </a>
         <a href="https://x.com" target="_blank"><i class="ri-twitter-x-line"></i> Twitter | </a>
         <a href="https://linkedin.com" target="_blank"><i class="ri-linkedin-fill"></i>LinkedIn | </a>
         <a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-line"></i>Instagram</a>
     </footer> -->
-
+    
 
 
 </body>
