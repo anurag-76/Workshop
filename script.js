@@ -82,7 +82,4 @@
 //     console.log(l)
 // }
 
-let RandomNum = 10;
-while (RandomNum >= 1) {
-    console.log(RandomNum - 1);
-}
+// 
