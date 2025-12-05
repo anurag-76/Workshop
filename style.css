@@ -25,16 +25,16 @@ nav {
 
 nav h3 {
     color: #725EE3;
-    margin-left: 200px;
-    font-size: 28px;
+    margin-left: 95px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
-    padding-right: 250px;
+    padding-right: 50px;
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    gap: 20px;
     background-color: #181824;
     list-style-type: none;
 }
@@ -42,7 +42,7 @@ nav ul {
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 23px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -55,13 +55,13 @@ nav a {
 }
 
 .l-left {
-    margin: 350px;
-    margin-left: 200px;
+    margin: 150px;
+    margin-left: 95px;
     width: 70%;
 }
 
 .l-left .intro {
-    font-size: 80px;
+    font-size: 45px;
     margin-bottom: 20px;
     margin-left: 9px;
     font-family: Arial, Helvetica, sans-serif;
@@ -69,14 +69,14 @@ nav a {
 }
 
 .l-left .fullname {
-    font-size: 120px;
-    padding-bottom: 50px;
+    font-size: 60px;
+    padding-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .l-left .bio {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 60px;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -84,21 +84,21 @@ nav a {
 
 .l-left button {
 
-    margin-right: 30px;
+    margin-right: 20px;
     border-radius: 10px;
     border-color: #7562E0;
 }
 
 .l-left .btn1 {
-    padding: 14px 40px;
+    padding: 14px 25px;
     background-color: #7562E0;
-    font-size: 30px;
+    font-size: 20px;
     transition: 0.3s ease;
 }
 
 .l-left .btn2 {
-    padding: 14px 40px;
-    font-size: 30px;
+    padding: 14px 25px;
+    font-size: 20px;
     background-color: transparent;
     transition: 0.3s ease;
 }
@@ -128,46 +128,46 @@ nav a {
 
 
 .r-right {
-    height: 65vh;
-    width: 50%;
+    height: 80vh;
+    width: 45%;
     justify-content: center;
     align-items: center;
     display: flex;
     overflow: hidden;
-    margin-top: 150px;
-    margin-right: 250px;
+    margin-top: 30px;
+    margin-right: 150px;
 }
 
 .r-right img {
-    padding-top: 200px;
-    height: 950px;
-    width: 900px;
+    padding-top: 50px;
+    height: 650px;
+    width: 800px;
 }
 
 #about {
-    margin-top: 60px;
+    margin-top: 150px;
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background-color: #181824;
 }
 
 #about h3 {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 200px;
-    font-size: 35px;
+    margin-left: 95px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: #725EE3;
     background-color: #181824
 }
 
 #about p {
-    margin-left: 200px;
+    margin-left: 95px;
     margin-right: 130px;
     overflow-x: auto;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #181824
 }
 
@@ -179,8 +179,8 @@ nav a {
 
 #education h3 {
     padding-top: 40px;
-    margin-left: 200px;
-    font-size: 35px;
+    margin-left: 95px;
+    font-size: 25px;
     color: #725EE3;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -189,7 +189,7 @@ nav a {
     width: 85%;
     border-collapse: separate;
     margin-top: 50px;
-    margin-left: 190px;
+    margin-left: 95px;
     table-layout: fixed;
     border: 6px solid #725EE3;
     border-radius: 10px;
@@ -197,7 +197,7 @@ nav a {
 
 #education table th,
 #education table td {
-    padding: 20px;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -212,8 +212,8 @@ nav a {
 }
 
 #education table th {
-    font-size: 30px;
-    height: 70px;
+    font-size: 25px;
+    height: 40px;
     text-align: left;
     border-bottom: 3px solid white;
     background-color: #725EE3;
@@ -221,7 +221,7 @@ nav a {
 
 
 #education table td {
-    font-size: 25px;
+    font-size: 15px;
     height: 50px;
 }
 
@@ -232,24 +232,24 @@ nav a {
 #interest-heading {
     margin-top: 70px;
     color: #725EE3;
-    font-size: 35px;
-    margin-left: 200px;
+    font-size: 25px;
+    margin-left: 95px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #interest {
-    margin-left: 150px;
-    margin-right: 109px;
+    margin-left: 60px;
+    margin-right: 85px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
+    padding: 30px;
 }
 
 .interest-card {
     border: 2px solid #725EE3;
-    padding: 60px 60px;
+    padding: 40px 40px;
     border-radius: 16px;
     text-align: center;
     transition: 0.3s ease;
@@ -264,7 +264,7 @@ nav a {
 }
 
 .interest-card i {
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     margin-bottom: 15px;
     display: block;
@@ -272,11 +272,11 @@ nav a {
 
 .interest-card h3 {
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .interest-card p {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.5;
 }
 
@@ -297,21 +297,21 @@ nav a {
 .contact-heading {
     margin-top: 70px;
     color: #725EE3;
-    font-size: 35px;
-    margin-left: 200px;
+    font-size: 25px;
+    margin-left: 95px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .satisfied {
-    font-size: 25px;
-    margin-left: 200px;
+    font-size: 20px;
+    margin-left: 95px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 20px;
 }
 
 .icons {
     display: flex;
-    margin-left: 200px;
+    margin-left: 95px;
     padding-top: 22px;
 }
 
@@ -322,7 +322,7 @@ nav a {
 }
 
 .contact-right {
-    margin-right: 250px;
+    margin-right: 150px;
 }
 
 .contact-right-heading {
@@ -334,7 +334,7 @@ nav a {
 .contact-form {
     width: 100%;
     max-width: 500px;
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 .input-group {
@@ -344,7 +344,7 @@ nav a {
 }
 
 .input-group ::placeholder {
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     align-items: center;
 }
@@ -354,7 +354,7 @@ nav a {
     width: 100%;
     background-color: #2a2a3b;
     border: none;
-    padding: 25px;
+    padding: 20px;
     border-radius: 10px;
     font-size: 20px;
 }
@@ -366,9 +366,9 @@ nav a {
 .btn-submit {
     background-color: #725EE3;
     border: none;
-    padding: 15px 100px;
+    padding: 15px 50px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -378,12 +378,12 @@ nav a {
 }
 
 .footer-content {
-    margin-left: 200px;
+    margin-left: 95px;
     margin-top: 60px;
 }
 
 .footer-content p {
-    font-size: 20px;
+    font-size: 15px;
     color: gray;
 }
 
@@ -395,6 +395,6 @@ nav a {
     padding-right: 20px;
     padding-top: 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 30px;
 }
